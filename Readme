@@ -1,1 +1,18 @@
-Here you can find the codes and 
+Here you can find the codes and files that are associated to the graduation research I have performed.
+
+The research question is:
+To what extent do EV movements influence the potential of EV-flexibility for providing FCR?
+
+When looking at the codes, four types of scripts can be distinguished:
+- The scripts Restructure mobility data, Calculate probabilities of EV movements and Triplengths are used to prepare mobility input data.
+- The scripts Prepare electricity demand data and Prepare FCR price data are used to prepare other input data.
+- The script Generate mobility behaviour can be used to generate stochastic runs of mobility behaviour of which 200 examples are provided.
+- The scripts Deterministic model and Stochastic model contain the models in which the data is used.
+
+When looking at the datafiles, two different types of files can be distinguished:
+- The datafiles starting with "Random EV" each contain one run with stochastically generated mobility behaviour. 
+- The other datafiles serve as input to the deterministic and stochastic model.
+
+When preparing the mobility data, several steps had to be taken. Therefore the following scripts have been used in the following order:
+- Restructure mobility data --> Calculate probabilities of EV movements --> Generate mobility behaviour.
+- Also the script Triplength serves as input to the script Generate mobility behaviour.
